@@ -1,0 +1,26 @@
+{
+    "name": "ottaviano/comparator",
+    "description": "Lib to compare 2 variables in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitri Gritsajuk",
+            "email": "gritsajuk.dimitri@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ottaviano\\Comparator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Ottaviano\\Comparator\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "friendsofphp/php-cs-fixer": "^2.13"
+    }
+}
